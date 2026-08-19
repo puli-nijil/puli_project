@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Book Exchange System</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#0f3969;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+nav{
+    background:#0e3c68;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    width:380px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px gray;
+}
+
+.container h2{
+    text-align:center;
+    color:#0f3969;
+}
+
+label{
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    background:#27ae60;
+    color:white;
+    border:none;
+    padding:12px;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1f8c4c;
+}
+
+p{
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:#0f3969;
+    font-weight:bold;
+}
+
+footer{
+    background:#133b70;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:70px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Book Exchange System</h1>
+
+<p>Exchange Books | Save Money | Read More</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="register.html">Register</a>
+
+<a href="login.html">Login</a>
+
+<a href="books.html">Books</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<h2>User Login</h2>
+
+<form action="login.php" method="POST">
+
+<label>Email</label>
+
+<input type="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+<label>Password</label>
+
+<input type="password"
+name="password"
+placeholder="Enter your password"
+required>
+
+<button type="submit">
+Login
+</button>
+
+</form>
+
+<p>
+
+Don't have an account?
+
+<a href="register.html">
+
+Register Here
+
+</a>
+
+</p>
+
+</div>
+
+<footer>
+
+<p>© 2026 Book Exchange System</p>
+
+</footer>
+
+</body>
+</html>
